@@ -1,6 +1,8 @@
 package com.chenxy.util;
 
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,12 +65,17 @@ public class Page<T> {
         return this;
     }
 
+
     /**
      * 获得每页的记录数量, 默认为-1.
      */
     public int getPageSize() {
         return pageSize;
     }
+
+
+
+
 
     /**
      * 设置每页的记录数量.
