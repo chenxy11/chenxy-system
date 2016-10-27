@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="chenxy-system:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="chenxy-system.war">
+      <element id="artifact" artifact-name="chenxy-system:war exploded" />
+    </root>
+  </artifact>
+</component>
